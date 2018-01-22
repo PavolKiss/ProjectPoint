@@ -43,6 +43,13 @@ public class Main {
         Point bod15 = new Point(2,5);
         Line line=new Line(bod15, new Point(10,4));
 
-        Line line2 = new Line(1,3,4,6)
+        Line line2 = new Line(1,3,4,6);
+
+        System.out.println("Length of line 1 is:"+line.getLenght(8,6));
+        line2.getMiddleOfLine().print();
+
+
+
+
     }
 }

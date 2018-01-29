@@ -1,6 +1,9 @@
 package sk.akademiasovy.point;
 
+import sk.akademiasovy.abstrakt.Person;
 import sk.akademiasovy.date.MyDate;
+import sk.akademiasovy.other.MyClass;
+import java.sql.SQLOutput;
 
 public class Main {
     public static void main(String[] args) {
@@ -54,7 +57,8 @@ public class Main {
         myDate.today();
         myDate.today2();
 
-
+        MyClass name = new MyClass();
+        System.out.println(name.isEmailValid("janko@mrkva.sk"));
 
     }
 }
